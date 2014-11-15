@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Klinkby.Security</id>
+    <version>1.0.0.0</version>
+    <title>Klinkby.Security</title>
+    <authors>Mads Breusch Klinkby</authors>
+    <summary>Symmetric encryption simple wrapper (for your eyes only)</summary>
+    <description>Symmetric encryption simple wrapper (for your eyes only)</description>
+    <copyright>MIT license</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/klinkby/klinkby.security/master/license.txt</licenseUrl>
+    <tags>klinkby encryption symmetric simple</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="4.0.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\klinkby.Security.dll" target="lib\net451\klinkby.Security.dll"/>
+    <file src="bin\release\klinkby.Security.pdb" target="lib\net451\klinkby.Security.pdb"/>
+    <file src="bin\release\klinkby.Security.xml" target="lib\net451\klinkby.Security.xml"/>
+  </files>
+</package>
