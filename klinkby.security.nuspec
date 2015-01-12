@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.Security</id>
-    <version>1.0.0.0</version>
+    <version>1.0.1.0</version>
     <title>Klinkby.Security</title>
     <authors>Mads Breusch Klinkby</authors>
     <summary>Symmetric encryption simple wrapper (for your eyes only)</summary>
@@ -15,8 +15,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\release\klinkby.Security.dll" target="lib\net451\klinkby.Security.dll"/>
-    <file src="bin\release\klinkby.Security.pdb" target="lib\net451\klinkby.Security.pdb"/>
-    <file src="bin\release\klinkby.Security.xml" target="lib\net451\klinkby.Security.xml"/>
+    <file src="bin\release\klinkby.Security.dll" target="lib\net452\klinkby.Security.dll"/>
+    <file src="bin\release\klinkby.Security.pdb" target="lib\net452\klinkby.Security.pdb"/>
+    <file src="bin\release\klinkby.Security.xml" target="lib\net452\klinkby.Security.xml"/>
   </files>
 </package>
