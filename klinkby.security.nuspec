@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.Security</id>
-    <version>1.0.2.0</version>
+    <version>1.0.2.1</version>
     <title>Klinkby.Security</title>
     <authors>Mads Breusch Klinkby</authors>
     <summary>Implements simple wrapper to handle good symmetric encryption and password hashing (new in 1.0.2).</summary>
