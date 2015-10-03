@@ -2,15 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>Klinkby.Security</id>
-    <version>1.0.1.1</version>
+    <version>1.0.2.0</version>
     <title>Klinkby.Security</title>
     <authors>Mads Breusch Klinkby</authors>
-    <summary>Symmetric encryption simple wrapper (for your eyes only)</summary>
-    <description>Symmetric encryption simple wrapper (for your eyes only)</description>
+    <summary>Implements simple wrapper to handle good symmetric encryption and password hashing (new in 1.0.2).</summary>
+    <description>Implements simple wrapper to handle good symmetric encryption and password hashing (new in 1.0.2).</description>
     <copyright>MIT license</copyright>
     <projectUrl>https://github.com/klinkby/klinkby.security</projectUrl>
     <licenseUrl>https://raw.githubusercontent.com/klinkby/klinkby.security/master/license.txt</licenseUrl>
-    <tags>klinkby encryption symmetric simple</tags>
+    <tags>klinkby encryption symmetric hash password simple</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="4.0.0"/>
     </dependencies>

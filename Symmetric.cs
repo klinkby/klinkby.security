@@ -13,8 +13,6 @@ namespace Klinkby.Security
     {
         private readonly byte[] _keyBytes;
         private static readonly Encoding Encoding = Encoding.UTF8;
-        [ThreadStatic]
-        private static Random _rnd;
 
         public SymmetricEncryption(string secretKey)
         {
@@ -27,10 +25,6 @@ namespace Klinkby.Security
         }
 
 
-        private static Random Random
-        {
-            get { return _rnd ?? (_rnd = new Random()); }
-        }
 
         public string Decrypt(string encryptedText)
         {
@@ -132,7 +126,7 @@ namespace Klinkby.Security
         private static byte[] PadLeftRandomBytes(byte[] arr, int length)
         {
             var buf = new byte[length];
-            Random.NextBytes(buf);
+            RndGen.Random.GetBytes(buf);
             Array.Resize(ref buf, length + arr.Length);
             Array.Copy(arr, 0, buf, length, arr.Length);
             return buf;
